@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <style>
+                #f1{
+                    text-align: center;
+                }
+                #i1{
+                    font-size: larger;
+                    
+                }
+                #t1{
+                    /* height: 200%; */
+                    /* width: 100%; */
+                    height: 20px;
+                    width: 80px;
+                    color: black;
+                }
+                    
+                
+               body{
+                    background-image:url("bg.jpeg");
+                   background-size: cover;
+                    
+                
+                }
+                #t1:hover{
+                    background-color: black;
+                    color: aliceblue;
+                    transition: 0.8s;
+                }
+                #t2{
+                    
+                    color:aliceblue
+                }
+                #t2:hover{
+                    opacity: 50%;
+                }
+                h5{
+                    font-size: larger;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    color:aliceblue
+                }
+                #fname{
+                    width: 200px;
+                
+                }
+                #i1{
+                    color:aliceblue;
+                }
+                #fname:hover{
+                    opacity: 60%;
+                    width:250px;
+                    transition: 1s;
+                    
+                }
+                #lname:hover{
+                    opacity: 60%;
+                    width:250px;
+                    transition: 1s;
+                    
+                }
+                #pno:hover{
+                    opacity: 60%;
+                    width:250px;
+                    transition: 1s;
+                    
+                }
+                #email:hover{
+                    opacity: 60%;
+                    width:250px;
+                    transition: 1s;
+                    
+                }
+               
+               
+                
+              
+            </style>
+            
+            <form id="f1" >
+                <fieldset>
+                    <div id="tt">
+                    <div >
+                    <legend id="t2">DETAILS </legend><br><br><br>
+                    <label id="i1" for="fname"> FIRST NAME:</label><br><br>
+                    <input type="text" id="fname" placeholder="First Name" style="height: 30px;border-radius: 10px; background-color:rgb(198, 198, 198)"><br><br>
+                    <label id="i1" for="lname">LAST NAME:</label><br><br>
+                    <input type="text" id="lname"  placeholder="Last Name" style="height: 30px; border-radius: 10px; background-color:rgb(198, 198, 198)"><br><br>
+                    <label id="i1" for="pno">PHONE:</label><br><br>
+                    <input type="tel" id="pno"  placeholder="PH.Number" style="height: 30px; border-radius: 10px; background-color:rgb(198, 198, 198);"><br><br>
+                    <label id="i1" for="mail">ENTER YOUR MAIL:</label><br><br>
+                     <input type="email" id="email" placeholder="Mail" style="height: 30px; border-radius: 10px; background-color:rgb(198, 198, 198)"><br><br>
+                    
+                     <label id="i1" for="daytime">DATE AND TIME</label><br><br>
+                     <input type="datetime-local" id="daytime" name="lname" placeholder="Date And Time" style="height: 30px; border-radius: 10px; background-color:rgb(198, 198, 198)"><br><br>
+
+                     <label id="i1" for="mem">MEMBERS</label><br><br>
+                     <input type="number" id="mem" name="lname" placeholder="No.Of Members" style="height: 30px; border-radius: 10px; background-color:rgb(198, 198, 198)"><br><br><br>
+
+
+
+
+                    <button onclick="fn1()" id="t1" type="button" value="submit"style="border-radius: 10px;">Submit</button><br><br>
+                    <h5>THANK YOU FOR YOUR KINDNESS !!</h5>
+                    </div>
+                    </div>
+                  
+                  </fieldset>
+            </form>
+            <script src="newpage.js"></script>
+        </body>
+    </head>
+</html>
